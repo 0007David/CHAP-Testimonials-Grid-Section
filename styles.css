@@ -54,7 +54,6 @@ main {
 }
 
 .container {
-
     /* width: 100%; */
     /* min-height: 100vh; */
     /* display: flex; */
@@ -65,15 +64,14 @@ main {
 
     margin-top: 70px;
     /* margin: 70px 30px; */
-
-
     /* border: 3px solid lightgoldenrodyellow; */
 }
 
 .card {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     /* max-width: 350px; */
+    min-width: 312px;
     /* background-color: var(--clr-Neutral-White); */
     /* border-radius: 10px; */
     /* padding: 1.5rem; */
@@ -82,15 +80,53 @@ main {
     /* justify-content: center; */
     /* align-items: center; */
     /* gap: 1.5rem; */
-
-    border: 3px solid lightgreen;
+    padding: 32.5px;
+    margin-bottom: 26px;
+    border-radius: 10px;
+    /* border: 3px solid lightgreen; */
 }
 
 .card-header {
+    text-align: center;
     display: flex;
-    /* justify-content: start; */
     align-items: center;
+    column-gap: 22px;
+    margin-bottom: 26px;
+}
 
+.card-title {
+    text-align: left;
+}
+
+.card-header-img {
+    border-radius: 100px;
+    width: 40px;
+    border: 2px solid var(--clr-Purple300);
+}
+
+.card-header-name {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card-header-verified {
+    font-size: 14px;
+    /* color: var(--clr-Purple300); */
+}
+
+.card-body {}
+
+.card-body-title {
+    font-size: 21px;
+    margin-bottom: 26px;
+}
+
+.card-body-description {
+    /* text-align: left; */
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--clr-Purple300);
 }
 
 .purple50 {
@@ -98,7 +134,11 @@ main {
 }
 
 .purple300 {
-    background-color: var(--clr-Purple50);
+    background-color: var(--clr-Purple300);
+}
+
+.text-purple300 {
+    color: var(--clr-Purple300);
 }
 
 .purple500 {
@@ -122,14 +162,16 @@ main {
 }
 
 .darkblue {
-    background-color: var(--clr--clr-Neutral-Darkblue);
+    background-color: var(--clr-Neutral-Darkblue);
 }
 
 .black {
-    background-color: var(--clr--clr-Neutral-Black);
+    background-color: var(--clr-Neutral-Black);
 }
 
-
+.white {
+    background-color: var(--clr-Neutral-White);
+}
 
 .attribution {
     font-size: 11px;

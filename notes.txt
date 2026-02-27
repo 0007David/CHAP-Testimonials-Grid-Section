@@ -4,6 +4,8 @@ Estimacion de tiempo de projecto 6hrs
 
 25-02 = dedique 45min
 26-02 = dedique 45min
+27-02 = dedique 45min
+
 
 
 Buscar herramienta que ayude a identificar el color
