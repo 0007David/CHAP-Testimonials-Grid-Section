@@ -28,7 +28,7 @@
 }
 
 html {
-    font-size: var(--fs-root);
+    /* font-size: var(--fs-root); */
     font-weight: 500;
 }
 
@@ -36,18 +36,21 @@ body {
     font-family: "Barlow Semi Condensed", sans-serif;
     color: var(--clr-Neutral-White);
     background: var(--clr-Neutral-Grey100);
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* border: 3px solid lightcoral; */
+    /* border: 3px solid lightblue; */
 }
 
 .container {
-    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* grid-template-columns: 200px 200px 200px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 2fr 1fr 1fr; */
+    /* grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); */
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* grid-template-columns: auto; */
+
+    /* margin-top: 70px; */
+    /* border: 3px solid lightgoldenrodyellow; */
 }
 
 .card {
@@ -59,52 +62,33 @@ main {
     /* border: 3px solid lightgreen; */
 }
 
-.card-header {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    column-gap: 22px;
-    margin-bottom: 26px;
+.card-1 {
+    /* grid-column: 1/2;
+    grid-row: 1; */
 }
 
-.card-title {
-    text-align: left;
+.card-2 {
+    /* grid-column: 1;
+    grid-row: 1; */
 }
 
-.card-header-img {
-    border-radius: 100px;
-    width: 40px;
+.card-3 {
+    /* grid-column: 1/2;
+    grid-row: 2; */
 }
 
-.img-border-purple300 {
-    border: 2px solid var(--clr-Purple300);
+.card-4 {
+    /* grid-column: 1/2;
+    grid-row: 2; */
 }
 
-.img-border-purple500 {
-    border: 2px solid var(--clr-Purple500);
+.card-5 {
+    /* grid-column: 3;
+    grid-row: 1; */
 }
 
-.card-header-name {
-    font-size: 16px;
-    font-weight: 300;
-}
 
-.card-header-verified {
-    font-size: 14px;
-}
 
-.card-body {}
-
-.card-body-title {
-    font-size: 21px;
-    margin-bottom: 26px;
-}
-
-.card-body-description {
-    margin-top: 0;
-    font-size: 14px;
-    line-height: 1.4;
-}
 
 .purple50 {
     background-color: var(--clr-Purple50);
@@ -172,58 +156,4 @@ main {
 
 .white {
     background-color: var(--clr-Neutral-White);
-}
-
-@media (min-width: 480px) {
-    .container {
-        background: red;
-    }
-
-    .card {}
-}
-
-@media (min-width: 768px) {
-    .container {
-        display: grid;
-        background: blue;
-    }
-
-    .card {}
-}
-
-@media (min-width: 1024px) {
-    .container {
-        display: grid;
-        background: lightgreen;
-    }
-
-    .card {
-        /* width: calc(48% - 20px); */
-
-    }
-}
-
-@media (min-width: 1280px) {
-    .container {
-        display: grid;
-        background: lightgray;
-    }
-
-    .card {}
-}
-
-
-
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-    font-family: "Barlow Semi Condensed", sans-serif;
-    /* font-weight: 600;   */
-    font-weight: 500;
-    font-style: normal;
 }

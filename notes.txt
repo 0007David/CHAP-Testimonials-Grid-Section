@@ -11,4 +11,7 @@ Estimacion de tiempo de projecto 6hrs
 Buscar herramienta que ayude a identificar el color
 Buscar herramienta que ayude a medir pixels tipo Figma
 
+dificultades
+ poner los colores de forma individual a cada carga
+ hacer lo lo mas generico el card
 
